@@ -1,5 +1,5 @@
 const data = { 'id': "0" };
-fetch("https://192.168.130.144/buy", {
+fetch("https://localhost/buy", {
         method: "POST",
         body: data,
     })
